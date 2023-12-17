@@ -46,3 +46,5 @@ Read the below pages and attend the tests
 ## - mobile `@media only screen and (max-width: 767px) {}`
 
 - tablet `@media only screen and (max-width: 991px) and (min-width: 768px) {}    `
+
+this meaasge is to just check whats going on
