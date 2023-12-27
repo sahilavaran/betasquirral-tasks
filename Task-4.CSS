@@ -1,0 +1,72 @@
+body {
+    margin: 0 auto ;
+}
+.navbar {
+    height: 80px;
+    border-bottom: 2px solid #555;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-container, .profile-container {
+    width: auto;
+}
+.logo-container h3 {
+    display: inline-block;
+    color: #555;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar img {
+    height: 60px;
+}
+.sidebar {
+    width: 400px;
+    border: right 2px; solid #555;
+   height: 100%;
+}
+.logo-container img {
+    padding: 0 15px 0 15px;
+}
+.profile-container img {
+    border-radius: 50%;
+    width: 60px;
+}
+.container {
+    width: calc(100vw);
+    height: calc(100vh -82px);
+}
+
+.table-container {
+    overflow: auto;
+}
+table {
+    width: 100%;
+    margin-top: 15px;
+    
+}
+table, th, td {
+    border: 2px solid #555;
+    border-collapse: collapse;
+}
+th {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+tr th:first-child {
+    text-align: center;
+    width: 50px;
+}
+
+td:first-child{
+    text-align: center;
+    width: 50px;
+}
+td, th {
+    padding: 15px;
+}
