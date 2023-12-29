@@ -47,4 +47,24 @@ Read the below pages and attend the tests
 
 - tablet `@media only screen and (max-width: 991px) and (min-width: 768px) {}    `
 
-this meaasge is to just check whats going on
+## - favicon syntax
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+## - websites for that
+
+https://realfavicongenerator.net/favicon_result?file_id=p1hiou3lgtof211921h7l1nq617t66
+
+## - To generate favicon
+
+favicon.io
+
+## - To download icons
+
+dryicons.com or iconfinder.com
