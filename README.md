@@ -68,3 +68,7 @@ favicon.io
 ## - To download icons
 
 dryicons.com or iconfinder.com
+
+## - Font based icons (so we can reduce the size)
+
+website - fontawesome.com
