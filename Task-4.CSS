@@ -1,5 +1,6 @@
 body{
   margin: 0 auto;
+ 
   
 }
 
@@ -81,7 +82,8 @@ nav a {
 .content {
   height: 100vh;
   width: calc(100% - 328px);
-  padding: 15px;
+  padding: 15px 15px 50px 15px;
+  overflow: auto;
 }
 
 .heading {
@@ -115,9 +117,15 @@ table {
 
 }
 
-table, th,td{
+table.list-table,.list-table th,.list-table td{
   border:2px solid #555 ;
   border-collapse: collapse;
+}
+table.colored-table {
+  border-collapse: collapse;
+}
+.colored-table tr {
+  border-bottom: 2px solid #555;
 }
 
 th {
@@ -129,8 +137,46 @@ th:first-child,td:first-child {
   text-align: center;
   width: 50px;
 }
+.lets {
+  border-collapse: collapse;
+}
 
-
-td, th{
+td, th {
   padding: 15px;
 }
+
+caption {
+  padding: 8px;
+  text-decoration: underline;
+  color: #555;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.list-table th:first-child,td:first-child {
+text-align: center;
+width: auto;
+}
+
+ .colored-table tr:nth-child(even) { 
+  background-color: #02B37C;
+ } 
+
+  .list-table tr:hover { /*this sudo class is used here to hower while moving */
+  background-color: bisque;
+ }
+
+.content{
+  overflow-y: auto;
+}
+
+`@media only screen and (max-width: 767px) {
+  .sidebar {
+    display: none;
+  }
+  .content {
+    width: calc(100% - 30px)
+    overflow-x: auto;
+  }
+}`
