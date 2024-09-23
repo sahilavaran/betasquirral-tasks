@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b6a0a0;
+}
+#green {
+  background-color: green;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#random {
+  background-color: #008cba;
+}
+
+button {
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  margin: 2px;
+}

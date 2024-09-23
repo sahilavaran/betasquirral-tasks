@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #343a40 !important;
+  border-bottom: 2px solid #ffc107;
+}
+.navbar-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand img {
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid #ffc107;
+}
+
+.spans {
+  color: whitesmokehj;
+}
+
+#sidebar {
+  background-color: antiquewhite;
+  height: calc(100vh - 59px);
+}
+
+#sidebar a.active {
+  text-decoration: underline;
+}
+@media (max-width: 767px) {
+  #sidebar {
+    width: 50px;
+  }
+}
